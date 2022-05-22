@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "repo_z_mt"
-version = "0.1.4"
+version = "0.1.5"
 description = "first package in PyPi index"
 authors = ["Mateusz Trzuskowski <mtrzuskowski@sii.pl>"]
 
@@ -9,6 +9,9 @@ python = "^3.10"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
+
+[tool.poetry.scripts]
+command = 'my_mateusz_trzuskowski:my_fun'
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
