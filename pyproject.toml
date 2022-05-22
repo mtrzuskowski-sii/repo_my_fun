@@ -1,8 +1,8 @@
 [tool.poetry]
 name = "repo_z_mt"
-version = "0.1.0"
-description = ""
-authors = ["Your Name <you@example.com>"]
+version = "0.1.1"
+description = "first package in PyPi index"
+authors = ["Mateusz Trzuskowski <mtrzuskowski@sii.pl>"]
 
 [tool.poetry.dependencies]
 python = "^3.10"
